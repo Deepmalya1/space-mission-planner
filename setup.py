@@ -16,7 +16,7 @@ setup(
     description="A package for planning space missions FULLY FUNCTIONAL",
     author="Deepmalya Acharya",  # Replace with your name
     author_email="deepmalyaa@gmail.com",  # Replace with your email
-    url="https://github.com/yourusername/space_mission_planner",  # Replace with your GitHub repository URL
+    url="https://github.com/Deepmalya1/space-mission-planner",  # Replace with your GitHub repository URL
     classifiers=[  # Optional: Add classifiers to make your package discoverable
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
