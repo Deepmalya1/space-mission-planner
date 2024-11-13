@@ -101,19 +101,19 @@ class SpacecraftResources:
 
 
 # Example usage
-food_supply = 1000  # Total food supply in kg
-oxygen_supply = 5000  # Total oxygen supply in m³
-crew_space = 2000  # Available space in m³
-food_per_person = 2  # Food required per person per day (kg)
-oxygen_per_person = 10  # Oxygen required per person per day (m³)
+# food_supply = 1000  # Total food supply in kg
+# oxygen_supply = 5000  # Total oxygen supply in m³
+# crew_space = 2000  # Available space in m³
+# food_per_person = 2  # Food required per person per day (kg)
+# oxygen_per_person = 10  # Oxygen required per person per day (m³)
 
-spacecraft_resources = SpacecraftResources(food_supply, oxygen_supply, crew_space, food_per_person, oxygen_per_person)
+# spacecraft_resources = SpacecraftResources(food_supply, oxygen_supply, crew_space, food_per_person, oxygen_per_person)
 
-spacecraft_resources.people_wanting_to_join(200)
+# spacecraft_resources.people_wanting_to_join(200)
 
-crew_roles, accepted_crew = spacecraft_resources.assign_crew_roles()
+# crew_roles, accepted_crew = spacecraft_resources.assign_crew_roles()
 
-print(f"Number of people accepted: {accepted_crew}")
-print("Crew Roles Allocation:")
-for role, num in crew_roles.items():
-    print(f"{role}: {num} members")
+# print(f"Number of people accepted: {accepted_crew}")
+# print("Crew Roles Allocation:")
+# for role, num in crew_roles.items():
+#     print(f"{role}: {num} members")

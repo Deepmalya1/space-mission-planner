@@ -8,5 +8,5 @@ def generate_mission_timeline(start_date,duration_days):
         'Arrival':start_date+timedelta(days=duration_days)
     }
     return events
-mission_start_date = datetime.now()
-print(generate_mission_timeline(mission_start_date, 100))
+# mission_start_date = datetime.now()
+# print(generate_mission_timeline(mission_start_date, 100))

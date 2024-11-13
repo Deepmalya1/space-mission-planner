@@ -23,4 +23,4 @@ def plot_trajectory(a,e):
     plt.grid(True)
     plt.show()
 
-plot_trajectory(planets[2].semi_major_axis+planets[3].semi_major_axis/2,0.207)
+# plot_trajectory(planets[2].semi_major_axis+planets[3].semi_major_axis/2,0.207)

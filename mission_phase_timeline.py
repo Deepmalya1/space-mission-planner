@@ -1,8 +1,9 @@
+# space_mission_planner/plot.py
+
 import matplotlib.pyplot as plt
 import numpy as np
 
 def plot_mission_timeline(phase_times, phase_labels):
-
     # Create the timeline plot
     fig, ax = plt.subplots(figsize=(10, 6))
     
@@ -18,7 +19,8 @@ def plot_mission_timeline(phase_times, phase_labels):
     plt.grid(True)
     plt.show()
 
-# Example usage
-phase_times = [0, 100, 200, 300, 400]  
-phase_labels = ['Launch', 'Periapsis', 'Apoapsis', 'Orbital Insertion', 'Arrival']
-plot_mission_timeline(phase_times, phase_labels)
+# Example usage: This will only run if you directly execute plot.py
+if __name__ == "__main__":
+    phase_times = [0, 100, 200, 300, 400]  # Example timeline data
+    phase_labels = ['Launch', 'Periapsis', 'Apoapsis', 'Orbital Insertion', 'Arrival']
+    plot_mission_timeline(phase_times, phase_labels)

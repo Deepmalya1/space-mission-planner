@@ -9,9 +9,8 @@ setup(
     install_requires=[  # List of external dependencies (if any)
         'numpy',
         'matplotlib',
-        'math' 
-        'astropy'
-        'datetime' # Example: Remove this if you don’t need numpy
+        'astropy',
+        'datetime', # Example: Remove this if you don’t need numpy
     ],
     description="A package for planning space missions FULLY FUNCTIONAL",
     author="Deepmalya Acharya",  # Replace with your name

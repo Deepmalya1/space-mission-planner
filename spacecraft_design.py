@@ -42,7 +42,7 @@ class Spacecraft:
         print(f"Estimated Mileage Before Critical Damage: {mileage:.2f} km")
 
 # Example usage:
-spacecraft = Spacecraft(mass=5000, propulsion_type='Chemical', fuel_capacity=100)
-spacecraft.calculate_delta_v()
-spacecraft.display_specs()
-spacecraft.show_mileage_before_damage()
+# spacecraft = Spacecraft(mass=5000, propulsion_type='Chemical', fuel_capacity=100)
+# spacecraft.calculate_delta_v()
+# spacecraft.display_specs()
+# spacecraft.show_mileage_before_damage()
